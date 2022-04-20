@@ -38,6 +38,8 @@
     <!-- Allows accessing the messages on ICC -->
     <uses-permission android:name="android.permission.ACCESS_MESSAGES_ON_ICC" />
 
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+
     <application android:process="com.android.phone"
                  android:allowClearUserData="false"
                  android:fullBackupOnly="true"
